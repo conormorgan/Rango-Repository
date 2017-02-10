@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+
+	<head>
+		<title>Rango</title>
+	</head>
+
+	<body>
+		<h1>Hello</h1>
+		<div>
+			Dia duit! <br />
+			<strong>{{ boldmessage }}</strong><br />
+		</div>
+		<div>
+			<a href="/rango/about/">About</a><br />
+			<img src="{% static "images/greenpurple.jpg" %}"
+			alt="Green and purple optical illusion" />
+		</div>
+	</body>
+
+</html>
